@@ -172,12 +172,13 @@ body{
 
 .fix-nav{
     position: fixed;
-    right: 0;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
     background-color: #000;
     padding: 15px 0;
+    transition: var(--transition-regular);
 }
 
 /* index page */
@@ -225,3 +226,372 @@ body{
     color: var(--black);
 }
 
+/* post section */
+
+.post-img{
+    width: 100% !important;
+    height: 250px !important;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-content span{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white) !important;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    text-transform: uppercase;
+}
+
+.post-content h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15px;
+    color: var(--black);
+}
+
+.post-span{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    text-transform: uppercase;
+}
+
+.post-span1{
+    background-color: #f8b34b;
+}
+
+.post-span2{
+    background-color: #19db5b !important;
+}
+
+.post-span3{
+    background-color: #f50bec !important;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+
+.post-wrap-card{
+    width: 100%;
+    height: 700px;
+    border-radius: 7px;
+    background-image: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.post-wrap-card:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0% transparent 100%);
+    z-index: -1;
+}
+
+.post-wrap-content{
+    padding: 0 5%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    animation: Anim-TB var(--transition-regular) forwards linear;
+    opacity: 0;
+    animation-delay: 0.3s;
+}
+
+.post-wrap-content h2{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+@keyframes Anim-TB {
+    0%{
+        transform: translate(-50%,-20%) translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-50%,-20%) translateY(0px);
+        opacity: 1;
+    }
+}
+
+.post-box-img img{
+    width: 120px !important;
+    height: 70px !important;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.post-box-content span{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.post-box-content p{
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: var(--black);
+}
+
+.post-box-content p:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.editor-tittle{
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.sport-card{
+    top: 50%;
+    right: -80%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding: 45px 40px !important;
+}
+
+.post-tag{
+    padding: 2px 8px;
+    font-size: 15px;
+}
+
+.post-span4{
+    background-color: #e54716;
+}
+
+.post-wrap span{
+    color: var(--white);
+}
+
+.post-wrap p{
+    color: var(--black);
+}
+
+.post-wrap small{
+    color: var(--black);
+}
+
+.post-wrap img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.social-box{
+    padding: 15px 20px 15px 20px !important;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: var(--transition-slow);
+}
+
+.social-box i{
+    font-size: 36px;
+}
+
+.social-box h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #212529;
+}
+
+.social-box small{
+    color: #797d81;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.facebook{
+    background-color: #f5f8fd;
+    color: #3b5998;
+}
+
+.social-box:hover{
+    background-color: #3b5998;
+}
+
+.social-box:hover i{
+    color: #fff;
+}
+.social-box:hover h5,
+.social-box:hover small{
+    color: var(--white);
+}
+
+.twiter{
+    background-color: #f5f8fd;
+    color: #1da1f2;
+}
+.twiter:hover{
+    background-color: #1da1f2;
+}
+
+.youtube{
+    background-color: #fff4f4;
+    color: #ff0000;
+}
+.youtube:hover{
+    background-color: #ff0000;
+}
+
+.spotify{
+    background-color: #eefff4;
+    color: #1db954;
+}
+
+.spotify:hover{
+    background-color: #1db954;
+}
+
+.instagram{
+    background-color: #fff6f9;
+    color: #e1306c;
+}
+
+.instagram:hover{
+    background-color: #e1306c;
+}
+
+.pinterest{
+    background-color: #fff4f5;
+    color: #f60c19;
+}
+
+.pinterest:hover{
+    background-color: #f60c19;
+}
+
+.follow h4{
+    color: var(--black);
+}
+
+.author-card h6,
+.author-card p{
+    color:var(--black);
+}
+
+.mr-card-img{
+    height: 180px !important;
+}
+
+.mr-card-wrap{
+    background-image: url(assets/travel-pic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.mr-card-wrap:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    background-image: linear-gradient(180deg, transparent 0%, #00000098 100%);
+    z-index: -1;
+}
+
+.mr-content{
+    bottom: 10px;
+    left: 50px;
+}
+
+.mr-content h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.mr-content p{
+    color: #fff;
+}
+
+.head-wrap h2{
+    color: var(--black);
+}
+
+.trending-post img{
+    height: 120px !important;
+    width: 120px !important;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.search-card h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    color: var(--black);
+}
+
+.input-btn input{
+    background-color: var(--white);
+    height: 50px;
+    padding: 6px 15px;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 89%);
+    color: var(--black);
+    outline: none;
+    transition: var(--transition-regular);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.input-btn button{
+    width: auto;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 14px;
+    border-radius: 5px;
+    border: none;
+    /* color: #000; */
+}
+
+.lp-right-wrap{
+    position: sticky;
+    top: 90px;
+    height: 100%;
+}
+
+.trending-post h4{
+    color: var(--black) !important;
+}
+
+.color{
+    color: var(--black);
+}

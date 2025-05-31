@@ -3,7 +3,7 @@
         "id":1,
         "Image":"images/Latest-post-1.jpg",
         "tag":"Tech",
-        "title":"Inside the Tech World: Insights, News & Innovations",
+        "title":"Inside the Tech World: Insights & Innovations",
         "author_date":"By Ricky - January 29, 2024",
         "paragraph": "SmartSteps is your guide to bite-sized lessons that spark meaningful growth in life and learning."
     },
@@ -19,7 +19,7 @@
         "id":3,
         "Image":"images/Latest-post-3.jpg",
         "tag":"Business",
-        "title":"Vision & Venture: Building Better Business Futures",
+        "title":"Better Business Futures",
         "author_date":"By Ricky - January 29, 2024",
         "paragraph": "SmartSteps is your guide to bite-sized lessons that spark meaningful growth in life and learning."
     },
@@ -27,7 +27,7 @@
         "id":4,
         "Image":"images/Latest-post-4.jpg",
         "tag":"Education",
-        "title":"Chalk & Change: Rethinking Traditional Education",
+        "title":" Rethinking Traditional Education",
         "author_date":"By Ricky - January 29, 2024",
         "paragraph": "SmartSteps is your guide to bite-sized lessons that spark meaningful growth in life and learning."
     },
