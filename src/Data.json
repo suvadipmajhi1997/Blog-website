@@ -33,10 +33,18 @@
     },
     {
         "id":5,
-        "Image":"images/Latest-post-5.png",
+        "Image":"images/Latest-post-1.jpg",
         "tag":"Tech",
         "title":"React, Redux, and Beyond: Frontend Tech That Matters",
         "author_date":"By Ricky - January 29, 2024",
         "paragraph": "SmartSteps is your guide to bite-sized lessons that spark meaningful growth in life and learning."
+    },
+    {
+        "id":5,
+        "Image":"images/Latest-post-5.png",
+        "tag":"Tech",
+        "title":"Chasing Vibes: Life, Style & Self-Care",
+        "author_date":"By Ricky - January 29, 2024",
+        "paragraph": "Chasing Vibes is your destination for inspiration in modern living, effortless style, and mindful self-care."
     }
 ]

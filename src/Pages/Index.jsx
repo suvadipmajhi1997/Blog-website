@@ -541,6 +541,32 @@ const Index = () => {
           </div>
         </div>
 
+        {/* news letter */}
+
+       <section className="py-5 subscribe border-top">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 mb-4 mb-md-5">
+              <h2 className="fw-bold">Get the best blog stories into your inbox!</h2>
+              <form className="mt-4 d-flex">
+                <div className="input-group shadow-sm overflow-hidden">
+                  <span className="input-group-text bg-white border-0">
+                    <i className="bi bi-envelope"></i>
+                  </span>
+                  <input type="email" className='border-0 form-control' placeholder='Enter your email' required />
+                  <button className='btn ab-sub-btn px-4 d-flex align-items-center rounded-pill' type='submit'>
+                    <i className="bi bi-send me-2"></i>Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div className="col-lg-6 text-center">
+              <img src={subsImg} alt="" className="subscribe-img-fluid" />
+            </div>
+          </div>
+        </div>
+       </section>
+
     </>
   );
 }

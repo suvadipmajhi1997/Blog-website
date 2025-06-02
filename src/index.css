@@ -595,3 +595,127 @@ body{
 .color{
     color: var(--black);
 }
+
+.subscribe{
+    background-color: var(--bg-color);
+}
+
+.subscribe h2{
+    width: 70%;
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+.subscribe img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.subscribe button{
+    transition: var(--transition-slow);
+    cursor: pointer;
+}
+
+.subscribe button:hover{
+    background-color: var(--footer-color);
+    color: #fff;
+}
+
+.footer{
+    background-color: var(--footer-color);
+}
+
+.footer p{
+    color: #b9b9b9;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.footer h6{
+    color: #fff;
+}
+
+.footer h6 p{
+    color: #b9b9b9 !important;
+    font-size: 15px;
+}
+
+.footer-icons i{
+    color: #b9b9b9;
+    font-size: 18px;
+    cursor: pointer;
+    transition: var(--transition-regular);
+}
+
+.footer-icons i:hover{
+    color: var(--prim-color);
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.footer h5{
+    color: #fff;
+    font-size: 18px;
+}
+
+.f-post{
+    height: 80px;
+    width: 110px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.footer span{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: var(--transition-slow);
+    cursor: pointer;
+}
+
+.footer span:hover{
+    color: var(--prim-color);
+}
+
+.footer small{
+    font-size: 14px;
+    color: #999;
+}
+
+.footer ul li{
+    position: relative;
+}
+
+.footer ul li:after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    width: 7px;
+    top: 40%;
+    left: 0;
+    background-color: var(--prim-color);
+    border-radius: 50%;
+}
+
+.footer ul li a{
+    color: #fff;
+    font-size: 17px;
+    margin-left: 26px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: #749eff;
+}
+
+.footer-bottom{
+    background-color: var(--footer-color);
+    border-color: #727272;
+}
+
+.footer-bottom a{
+    color: var(--prim-color);
+    text-decoration: none !important;
+}
