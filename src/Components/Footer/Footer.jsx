@@ -8,9 +8,9 @@ import footer3 from './../../assets/footer-3.jpg'
 const Footer = () => {
   return (
     <>
-    <section className="py-5 footer">
+    <section className="py-2 footer">
         <div className="container">
-            <div className="row">
+            <div className="row mt-3">
                 <div className="col-lg-4 mb-5">
                     <div className="logo mb-3 d-flex align-items-center mb-3">
                         <h2><span>Quiet</span>Quill</h2>
@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="mt-4 text-center pt-5 footer-bottom border-top">
+        <div className="mt-4 text-center pt-2 footer-bottom border-top">
             <p>©Copyright All Rights Reserved by <a href="#">Suvadip</a></p>
         </div>
     </section>

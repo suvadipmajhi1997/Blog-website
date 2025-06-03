@@ -111,6 +111,12 @@ const Index = () => {
                 delay:2000,
                 disableOnInteraction: false,
             }}
+            breakpoints={{
+              1399:{slidesPerView:3},
+              991:{slidesPerView:2},
+              767:{slidesPerView:1},
+              0:{slidesPerView:1},
+            }}
             className="headline-post-swiper"
             >
                 {Datas.map((data,index)=>{
